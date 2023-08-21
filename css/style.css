@@ -36,6 +36,11 @@
   height: 100vh;
 }
 
+.form-select {
+  display: inline-block;
+  width: auto;
+}
+
 #game-grid {
   width: 60%;
   aspect-ratio: 1 / 1;
@@ -44,8 +49,24 @@
   margin: auto;
 }
 
-.cell {
+.cell10 {
   width: calc(100% / 10);
+  border: 1px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell9 {
+  width: calc(100% / 9);
+  border: 1px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell7 {
+  width: calc(100% / 7);
   border: 1px solid var(--black);
   display: flex;
   align-items: center;
