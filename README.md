@@ -11,7 +11,7 @@ Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed 
 
 1. definiamo un contenitore con dimensioni fisse
 2. contiamo da 1 a 100 e per ogni ciclo:
-   - creaiamo una cella condimensioni fisse
+   - creiamo una cella condimensioni fisse
      - la larghezza la valutiamo con il calc (100% / 10)
      - l'altezza con aspect ratio 1
    - associamo l'indice alla singola cella
