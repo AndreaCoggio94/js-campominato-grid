@@ -29,12 +29,16 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
-.main {
+body {
   background-color: var(--light-purple);
-  height: 100vh;
 }
+
+/* .main {
+  height: 100vh;
+} */
 
 .form-select {
   display: inline-block;
@@ -43,34 +47,29 @@
 
 #game-grid {
   width: 60%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
 }
 
-.cell10 {
+.cell {
+  border: 1px solid var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell-10 {
   width: calc(100% / 10);
-  border: 1px solid var(--black);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.cell9 {
+.cell-9 {
   width: calc(100% / 9);
-  border: 1px solid var(--black);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.cell7 {
+.cell-7 {
   width: calc(100% / 7);
-  border: 1px solid var(--black);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .azure {

@@ -27,7 +27,8 @@ function gridGenerator() {
 
 function cellGenerator(number, grid) {
   const cell = document.createElement("div");
-  cell.classList.add("cell" + grid);
+  cell.classList.add("cell");
+  cell.classList.add("cell-" + grid);
   cell.innerHTML = number;
 
   cell.addEventListener("click", function () {
